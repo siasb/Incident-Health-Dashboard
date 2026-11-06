@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-10-30T00:00:00Z",
+  "filters": {"window": "Last 30 days", "severity": "All", "team": "All"},
+  "summary": {
+    "incident_count": 12,
+    "active_incident_count": 3,
+    "mttm_minutes": 48,
+    "open_action_count": 18,
+    "unassigned_action_count": 4,
+    "retro_overdue_count": 5,
+    "incidents_without_follow_up": 2
+  },
+  "mttm_by_severity": [
+    {"severity": "SEV1", "value": 22, "target": 22},
+    {"severity": "SEV2", "value": 31, "target": 45},
+    {"severity": "SEV3", "value": 54, "target": 1440},
+    {"severity": "SEV4", "value": 78, "target": 10080}
+  ],
+  "incidents": [
+    {"incident_number":"1747","name":"Datalake refresh failure","severity":"SEV2","status":"Resolved","mttm_minutes":31,"retro_status":"Pending","jira_epic":"IR-521","age_days":8},
+    {"incident_number":"1753","name":"Potential privilege escalation","severity":"SEV1","status":"Mitigated","mttm_minutes":22,"retro_status":"Complete","jira_epic":"IR-528","age_days":5},
+    {"incident_number":"1790","name":"ARR model timeout","severity":"SEV3","status":"Active","mttm_minutes":null,"retro_status":"Not due","jira_epic":"IR-555","age_days":2},
+    {"incident_number":"1806","name":"Stale Marketo ingestion","severity":"SEV3","status":"Resolved","mttm_minutes":77,"retro_status":"Pending","jira_epic":"IR-578","age_days":14}
+  ],
+  "actions": [
+    {"key":"DATA-3018","summary":"Add freshness policies to ingestion assets","incident_number":"1806","parent_key":"IR-578","status":"New","priority":"High","assignee":null,"age_days":21},
+    {"key":"DATA-1504","summary":"Modify deployment alert policies","incident_number":"1806","parent_key":"IR-578","status":"Doing","priority":"Medium","assignee":"A. Patel","age_days":18},
+    {"key":"IDZ-338","summary":"Remove UUID uniqueness vector","incident_number":"1753","parent_key":"IR-528","status":"New","priority":"Critical","assignee":"M. Chen","age_days":6},
+    {"key":"DATA-3828","summary":"Investigate run launch failures","incident_number":"1790","parent_key":null,"status":"New","priority":"Medium","assignee":null,"age_days":4}
+  ]
+}

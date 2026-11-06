@@ -1,0 +1,9 @@
+{
+  "name": "incident-response-health-dashboard",
+  "artifact_type": "github-showcase-kit",
+  "version": "1.0.0",
+  "contains_private_operational_data": false,
+  "demo_entrypoint": "demo/index.html",
+  "source_of_design": "Incident Response Health dashboard work",
+  "recommended_github_pages_path": "/demo"
+}
