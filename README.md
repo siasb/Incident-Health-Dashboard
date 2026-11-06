@@ -4,6 +4,15 @@ A severity-based incident review dashboard for turning incident, retrospective, 
 
 > This repository is a GitHub-safe showcase artifact. It uses synthetic sample data and documents the implementation approach without including private FireHydrant, Jira, customer, or employee records.
 
+## Dashboard Preview
+
+![Incident Health Dashboard](docs/incident-health-dashboard-demo.png)
+
+## Project Report
+
+[View the Incident Health Dashboard PDF report](docs/incident-health-dashboard-report.pdf)
+
+
 ## What this project demonstrates
 
 The dashboard brings together the operational signals needed for a recurring incident review:
